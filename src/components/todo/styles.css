@@ -1,0 +1,48 @@
+.todo{
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(230, 230, 230);
+    color: rgb(78, 78, 78);
+}
+
+.todo-delete, .todo-complete{
+    background: transparent;
+    border: none;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    color: rgb(133, 133, 133);
+}
+
+.todo-complete:hover, .todo-delete:hover{
+    transform: rotate(10deg);
+    
+}
+
+.todo-text {
+    font-weight: bold;
+}
+
+.todo-date{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: rgb(158, 158, 158);
+}
+
+.skyblue{
+    background: #B6D6F2;
+}
+
+.lavender{
+    background: rgb(199, 199, 199);
+}
+
+.coral{
+    background: #E83338;
+}
