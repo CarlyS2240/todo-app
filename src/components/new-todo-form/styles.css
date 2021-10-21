@@ -9,7 +9,7 @@ form {
 input[type=submit] {
     font-size: 1.2rem;
     color: white;
-    background: #ec5990;
+    background: #506ad4;
     border: none;
     padding: 20px;
     font-weight: 100;
@@ -23,5 +23,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background: #ff93bb;
+    background: #dddddd;
+    color: rgb(133, 133, 133);
 }
